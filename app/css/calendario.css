@@ -1,0 +1,21 @@
+ol{
+    padding: 0px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+.firstDay{
+    grid-column: 6;
+}
+li{
+    text-align: right;
+}
+.weekDays{
+    background-color: rgb(169, 107, 228);
+    font-weight: bold;
+    text-align: center;
+}

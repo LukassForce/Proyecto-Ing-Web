@@ -1,39 +1,57 @@
 <!DOCTYPE html>
+<!--comentarios
+    hola mundo
+-->
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <title>Menu Navegador</title>
+    <!--estilos-->
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/menu.css" type="text/css" />
+    <!--javascript-->
+  </head>
+  <body>
+    <!--cabeza + menu-->
+    <header>
+      <h1>Navegador Academico</h1>
+    </header>
+    <nav>
+      <ul id="menu">
+        <li class="visited">
+          <a href="paginas/horario.html" title="inicio"
+            ><span class="material-icons"> alarm</span>Horario</a
+          >
+        </li>
+        <li>
+          <a href="paginas/calendario.html" title="galeria"
+            ><span class="material-icons"> calendar_today </span>Calendario</a>
+        </li>
+        <li>
+          <a href="videos.html" title="videos"
+            ><span class="material-icons">note_add</span>Justificar</a
+          >
+        </li>
+        <li>
+          <a href="contactenos.html" title="contáctenos"
+            ><span class="material-icons">chat</span>Chat</a
+          >
+        </li>
+        <li>
+          <a href="index.html" title="sesion"
+            ><span class="material-icons">account_circle</span>Cerrar Sesion</a
+          >
+        </li>
+      </ul>
+    </nav>
 
-
-    <!-- Estilos -->
-    <link rel="stylesheet" href="css/estilos.css">
-
-    <title>Inicio Sesion</title>
-</head>
-<body>
-       <!-- Formularios -->
-       <div class="contenedor-formularios">
-
-        <!-- Contenido de los Formularios -->
-        <div class="contenido-tab">
-            <!-- Iniciar Sesion -->
-            <div id="iniciar-sesion">
-                <h1>Iniciar Sesión</h1>
-                <form action="#" method="post">
-                    <div class="contenedor-input">
-                        <input type="text" required placeholder="Usuario">
-                    </div>
-
-                    <div class="contenedor-input">
-                        <input type="password" required placeholder="Contraseña">
-                    </div>
-                    <p class="forgot"><a href="#">Olvido su contraseña?</a></p>
-                    <button>Iniciar sesion</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-</body>
+    <!--fin cabeza+menu-->
+  </body>
 </html>
