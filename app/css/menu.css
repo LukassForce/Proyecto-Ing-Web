@@ -19,14 +19,15 @@ header h1 {
 }
 
 nav {
-  margin-left: 100px;
+  margin-left: 10px;
   width: 100%;
   height: 90px;
 }
 nav ul {
   list-style: none;
   list-style-type: none;
-  display: flex;
+  margin-top: 20px;
+
 }
 
 nav #menu {
@@ -40,6 +41,7 @@ nav ul li {
   width: 180px;
   font-size: 16px;
 
+  margin-top: 20px;
   width: 180px;
   height: 120;
   padding: 10px;
@@ -63,8 +65,7 @@ nav li a {
   li a:hover{
       background-color: blue;
   }*/
-nav li:hover,
-li.visited {
+nav li:hover{
   background-color: rgba(86, 15, 152, 0.434);
 }
 nav ul li img {
